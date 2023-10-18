@@ -34,6 +34,13 @@ body{
     margin: 0;
     background-color: #020a18;
 }
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1146px;
+}
+
 h1,p {
     margin: 0;
 }
@@ -62,9 +69,7 @@ html{
     display: flex;
     /* gap: 128px; */
     justify-content: space-between;
-    width: 1146px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-top: 160px;
 }
 
 .intro-subtitle{
@@ -111,4 +116,46 @@ html{
     padding: 15px 30px;
     align-items: flex-start;
     gap: 10px;
+}
+
+.logos{
+    display: flex;
+    width: 1146px;
+    /* margin: 197px auto 0; */
+    margin-top: 197px;
+    justify-content: space-between;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+    justify-content: space-between;
+}
+
+.about-title{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 30px;
+}
+
+.about-text{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+    margin-bottom: 50px;
+    opacity: 0.7;
+    width: 460px;
+}
+
+.about-button-wrapper{
+    display: inline-flex;
+    gap: 20px;
+}
+
+.sm-text{
+    font-size: 16px;
 }
