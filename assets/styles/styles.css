@@ -41,7 +41,7 @@ body{
     width: 1146px;
 }
 
-h1,p, {
+h1,p {
     margin: 0;
 }
 html{
@@ -169,10 +169,7 @@ html{
     ;
 }
 
-.services-item-big{
-    grid-column: span 2;
-    grid-row: span 2;
-}
+
 
 .services-item{
     border-radius: 10px;
@@ -184,6 +181,12 @@ html{
     align-items: center;
     gap: 30px;
 
+}
+
+.services-item-big{
+    grid-column: span 2;
+    grid-row: span 2;
+    gap: 60px;
 }
 
 .services-title{
@@ -203,10 +206,4 @@ html{
     font-weight: 600;
     line-height: 160%;
     opacity: 0.7;
-}
-
-
-.services-img{
-    /* display: flex; */
-    /* justify-content: center; */
 }
