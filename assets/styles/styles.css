@@ -159,3 +159,13 @@ html{
 .sm-text{
     font-size: 16px;
 }
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.services-item{
+    
+}
